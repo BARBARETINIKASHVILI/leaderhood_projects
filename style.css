@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.952);
+}
+
+
+nav {
+    display: flex;
+    gap: 52%;
+    padding-top: 30px;
+}
+
+.title {
+    color: white;
+    font-size: 35px;
+    font-family: Poppins;
+    font-weight: 700;
+    text-shadow: 10px 10px 5px rgba(255, 255, 255, 0.14);
+    padding-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+ul {
+    color: whitesmoke;
+    display: flex;
+    list-style-type: none;
+    gap: 100px;
+    font-size: 26px;
+    font-family: Poppins;
+    
+}
+
+.think {
+    width: 320px;
+    
+}
+
+.question {
+    color: white;
+    font-size: 35px;
+    font-family: Poppins;
+    font-weight: 100;
+}
+
+.suggest {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding-top: 180px;
+}
+
+/* abpout */
+
+#about {
+    padding-top: 218px;
+    height: 700px;
+}
+
+.hi {
+    color: white;
+    font-family: Poppins;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.abouttext {
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.box {
+    border: solid;
+    width: 450px;
+    height: 250px;
+    background-color: black;
+    box-shadow: 
+    10px 5px rgba(255, 255, 255, 0.062);
+    left: 300px;
+    padding-top: 20px;
+    position: absolute;
+    top: 130%;
+}
+
+.box:hover {
+    padding-top: 15px;
+    transition: 0.5s;
+}
